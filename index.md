@@ -3,6 +3,7 @@ title: "Minimal Example of Shiny app with R"
 author:
   - Raniere Gaia Costa da Silva
 shiny: true
+cover: img/cover.jpg
 ---
 
 This example demonstrates the minimal set of metadata supported by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) for a [Shiny app](https://shiny.posit.co/). It is required to have
