@@ -1,6 +1,6 @@
 # Minimal Example of Shiny app with R
 
-[`app.R`](app.R) has the code for the Shiny app with R and [`index.qmd`](index.qmd) illustrates all the required metadata used by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
+[`app.R`](app.R) has the code for the Shiny app with R and [`index.qmd`](index.qmd) illustrates all the required metadata used by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew).
 
 This repository uses [install.R](install.R) as [configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html).
 
@@ -16,7 +16,7 @@ This repository uses [install.R](install.R) as [configuration file](https://mybi
 
 ## Supported Features
 
-| Feature | [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) | Notes |
+| Feature | [`andrew`](https://github.com/GESIS-Methods-Hub/andrew) | Notes |
 | --- | --- | --- |
 | Pandoc’s Markdown | 👍 | |
 | Callout Blocks | 👍 | |
