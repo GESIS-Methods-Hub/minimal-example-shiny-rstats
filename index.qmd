@@ -5,18 +5,46 @@ author:
 shiny: true
 image: img/cover.jpg
 image-alt: Incandescent light bulb on.
+bibliography: references.bib
 ---
 
-This example demonstrates the minimal set of metadata supported by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew) for a [Shiny app](https://shiny.posit.co/). It is required to have
+This example illustrates the **required** metadata by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew) for the landing page of a [Shiny app](https://shiny.posit.co/). The landing page for a tutorial written as a Quarto Document, an extension to Markdown [@markdown2004].
+
+It is required to have
 
 ```
 shiny: true
 ```
 
-in the YAML header.
-
-The link to [mybinder.org](https://mybinder.org/) will launch the Shiny app.
+in the YAML header for `andrew` to use the correct template.
 
 We recommend to include a couple of screenshots of the Shiny app.
 
 ![Screenshot of Shiny app](img/screenshot.png)
+
+## Binder
+
+The link to Binder will launch the Shiny app.
+
+## Extra
+
+Although footnotes are supported, the use of footnotes is discouraged[^1].
+
+[^1]: Because of it makes navigation harder.
+
+Math can be written using [LaTeX](https://www.latex-project.org/) and is render by [MathJax](https://www.mathjax.org/). Both inline, for example $x$, and standalone, for example $$x = \sqrt{a^2 + b^2}\text{,}$$ is supported.
+
+::: {.callout-important}
+
+To draw attention, wrap the text inside a callout blocks.
+
+:::
+
+Cross reference of figures, tables, equations, ... is also supported. For example, see @fig-north.
+
+![Photo of weathercock by Mat Brown. Available at <https://www.pexels.com/photo/silhouette-of-wind-vane-552600/>.](img/north.jpg){#fig-north}
+
+## References
+
+::: {#refs}
+:::
